@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      padding: 25px;
+    }
+    .my-button {
+      border: 3px solid blue;
+      width: 300px;
+      font-size: 3rem;
+      color: whitesmoke;
+      padding: 30px;
+      background-color: black;
+      margin: 15px;
+      display: inline-flex;
+      border-radius: 50px;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    .my-button:hover{
+      background-color: aqua;
+    }
+    .my-button:active{
+      background-color: red;
+    }
+    .my-button:first-child{
+      background-color: greenyellow;
+    }
+    .my-button:nth-child(2n+1){
+      background-color: aqua;
+    }
+  </style>
+</head>
+<body>
+  <div class="my-button">
+    <div>
+      Click me!
+    </div>
+  </div>
+
+  <div class="my-button">
+    Padding 1
+  </div>
+  <div class="my-button">
+    Padding 2
+  </div>
+
+  <div class="my-button">
+    Margin 1
+  </div>
+  <div class="my-button">
+    Margin 2
+  </div>
+</body>
+</html>
